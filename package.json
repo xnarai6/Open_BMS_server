@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server package",
+  "main": "SERVER.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kss",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^2.0.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5"
+  }
+}
